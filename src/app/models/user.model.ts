@@ -1,0 +1,42 @@
+export interface User {
+
+        C1:string;
+        C2:string;
+        C3:string;
+        C4:string;
+        C5:string;
+        C6:string;
+        C7:string;
+        C8:string;
+        C9:string;
+        C10:string;
+        C11:string;
+        C12:string;
+        C13:string;
+        C14:string;        
+        C15:string;
+        C16:string;
+        C17:string;
+        C18:string;
+        C19:string;
+        C20:string;
+        C21:string;
+        C22:string;
+        C23:string;
+        C24:string;
+        C25:string;
+        C26:string;
+        C27:string;
+        C28:string;
+        C29:string;
+        C30:string;
+        C31:string;
+        C32:string;
+        C33:string;
+        C34:string;
+        C35:string;
+        C36:string;
+        fila:string;
+        objetivo:string;
+   
+}

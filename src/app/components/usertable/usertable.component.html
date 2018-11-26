@@ -1,0 +1,200 @@
+<div class="">
+  <mat-table [dataSource]="dataSource">
+    <ng-container matColumnDef="FILA">
+      <mat-header-cell *matHeaderCellDef> PLAN </mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.fila}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP1M1">
+      <mat-header-cell *matHeaderCellDef> Lima Producto 1 MES 1 </mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C1}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP1M2">
+      <mat-header-cell *matHeaderCellDef>  Lima Producto 1 MES 2</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C2}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP1M3">
+      <mat-header-cell *matHeaderCellDef>  Lima Producto 1 MES 3</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C3}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP2M1">
+      <mat-header-cell *matHeaderCellDef> Lima Producto 2 MES 1 </mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C13}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP2M2">
+      <mat-header-cell *matHeaderCellDef>  Lima Producto 2 MES 2</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C14}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP2M3">
+      <mat-header-cell *matHeaderCellDef>  Lima Producto 2 MES 3</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C15}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP3M1">
+      <mat-header-cell *matHeaderCellDef> Lima Producto 3 MES 1 </mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C25}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP3M2">
+      <mat-header-cell *matHeaderCellDef>  Lima Producto 3 MES 2</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C26}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP3M3">
+      <mat-header-cell *matHeaderCellDef>  Lima Producto 3 MES 3</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C27}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="OBJETIVO">
+      <mat-header-cell *matHeaderCellDef>  Objetivo</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.objetivo}} </mat-cell>
+    </ng-container>
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+
+  </mat-table>
+
+  <!---->
+  <mat-table [dataSource]="dataSource2">
+    <ng-container matColumnDef="FILA">
+      <mat-header-cell *matHeaderCellDef>PLAN  </mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.fila}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP1M1">
+      <mat-header-cell *matHeaderCellDef> Cuzco Producto 1 MES 1 </mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C4}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP1M2">
+      <mat-header-cell *matHeaderCellDef>  Cuzco Producto 1 MES 2</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C5}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP1M3">
+      <mat-header-cell *matHeaderCellDef>  Cuzco Producto 1 MES 3</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C6}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP2M1">
+      <mat-header-cell *matHeaderCellDef> Cuzco Producto 2 MES 1 </mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C16}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP2M2">
+      <mat-header-cell *matHeaderCellDef>  Cuzco Producto 2 MES 2</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C17}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP2M3">
+      <mat-header-cell *matHeaderCellDef>  Cuzco Producto 2 MES 3</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C18}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP3M1">
+      <mat-header-cell *matHeaderCellDef> Cuzco Producto 3 MES 1 </mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C28}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP3M2">
+      <mat-header-cell *matHeaderCellDef>  Cuzco Producto 3 MES 2</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C29}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP3M3">
+      <mat-header-cell *matHeaderCellDef>  Cuzco Producto 3 MES 3</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C30}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="OBJETIVO">
+      <mat-header-cell *matHeaderCellDef>  Objetivo</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.objetivo}} </mat-cell>
+    </ng-container>
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>
+  <!---->
+  <mat-table [dataSource]="dataSource">
+    <ng-container matColumnDef="FILA">
+      <mat-header-cell *matHeaderCellDef>PLAN  </mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.fila}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP1M1">
+      <mat-header-cell *matHeaderCellDef> Cajamarca Producto 1 MES 1 </mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C7}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP1M2">
+      <mat-header-cell *matHeaderCellDef>  Cajamarca Producto 1 MES 2</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C8}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP1M3">
+      <mat-header-cell *matHeaderCellDef>  Cajamarca Producto 1 MES 3</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C9}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP2M1">
+      <mat-header-cell *matHeaderCellDef> Cajamarca Producto 2 MES 1 </mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C19}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP2M2">
+      <mat-header-cell *matHeaderCellDef>  Cajamarca Producto 2 MES 2</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C20}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP2M3">
+      <mat-header-cell *matHeaderCellDef>  Cajamarca Producto 2 MES 3</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C21}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP3M1">
+      <mat-header-cell *matHeaderCellDef> Cajamarca Producto 3 MES 1 </mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C31}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP3M2">
+      <mat-header-cell *matHeaderCellDef>  Cajamarca Producto 3 MES 2</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C32}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP3M3">
+      <mat-header-cell *matHeaderCellDef>  Cajamarca Producto 3 MES 3</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C33}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="OBJETIVO">
+      <mat-header-cell *matHeaderCellDef>  Objetivo</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.objetivo}} </mat-cell>
+    </ng-container>
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>
+
+  <!---->
+  <mat-table [dataSource]="dataSource">
+    <ng-container matColumnDef="FILA">
+      <mat-header-cell *matHeaderCellDef>PLAN  </mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.fila}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP1M1">
+      <mat-header-cell *matHeaderCellDef> LIMA2 Producto 1 MES 1 </mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C10}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP1M2">
+      <mat-header-cell *matHeaderCellDef>  LIMA2 Producto 1 MES 2</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C11}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP1M3">
+      <mat-header-cell *matHeaderCellDef>  LIMA2 Producto 1 MES 3</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C12}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP2M1">
+      <mat-header-cell *matHeaderCellDef> LIMA2 Producto 2 MES 1 </mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C22}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP2M2">
+      <mat-header-cell *matHeaderCellDef>  LIMA2 Producto 2 MES 2</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C23}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP2M3">
+      <mat-header-cell *matHeaderCellDef>  LIMA2 Producto 2 MES 3</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C24}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP3M1">
+      <mat-header-cell *matHeaderCellDef> LIMA2 Producto 3 MES 1 </mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C34}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP3M2">
+      <mat-header-cell *matHeaderCellDef>  LIMA2 Producto 3 MES 2</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C35}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="LP3M3">
+      <mat-header-cell *matHeaderCellDef>  LIMA2 Producto 3 MES 3</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.C36}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="OBJETIVO">
+      <mat-header-cell *matHeaderCellDef>  Objetivo</mat-header-cell>
+      <mat-cell *matCellDef="let user"> {{user.objetivo}} </mat-cell>
+    </ng-container>
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>    
+</div>
